@@ -1,0 +1,1 @@
+npx terser portgetset.js -o index.js
