@@ -6,7 +6,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["new", "port", "automatic", "get", "set", "cli", "node"],
-  "author": "aydincandan@gmail.com",
+  "author": "Aydin Candan <aydincandan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydincandan/portgetset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aydincandan/portgetset/issues"
+  },
+  "homepage": "https://github.com/aydincandan/portgetset#readme",
   "license": "ISC",
   "description": "First, PORT=xxx defined in the .env file is taken. If this is not present, the first parameter read from the command line is accepted as PORT.",
   "dependencies": {
